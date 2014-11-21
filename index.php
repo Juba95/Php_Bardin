@@ -9,4 +9,4 @@ require __DIR__.'/vendor/autoload.php';
 //$slugify = new \Cocur\Slugify\Slugify();
 //echo $slugify->slugify('Mé àrè azdkj dz ak azd HJVJV');
 
-echo \OKLM\StringGenerator\PasswordGenerator::generate(100);
+echo \OKLM\StringGenerator\PasswordGenerator::generate(100, \OKLM\StringGenerator\PasswordGenerator::PASSWORD_HARD);
